@@ -1,4 +1,5 @@
 import photo from '../assets/business-card-photo.png';
+import linkedin from '../assets/linkedin.png';
 
 export default function Info() {
   return (
@@ -13,7 +14,7 @@ export default function Info() {
             <span>✉️</span> Email
           </button>
           <button className='right'>
-            <img src={photo} /> LinkedIn
+            <img className='linkedin' src={linkedin} alt='linkedin' /> LinkedIn
           </button>
         </section>
       </div>
