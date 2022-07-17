@@ -86,16 +86,17 @@ button:hover {
   width: 115px;
   height: 34px;
   border-radius: 6px;
-  padding: 9px 13px 9px 11px;
+  /* padding: 9px 13px 9px 11px; */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #374151;
-  flex: none;
   order: 1;
-  flex-grow: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info button.left {
@@ -106,8 +107,10 @@ button:hover {
 }
 
 .envelope {
-  font-size: 20px;
+  font-size: 24px;
+  text-align: center;
   box-shadow: 3px 3px 4px#161619;
+  background: transparent;
 }
 
 .info button.right {
@@ -118,7 +121,9 @@ button:hover {
 }
 
 .info button.right img {
-  width: 15px;
+  border-radius: 1px;
+  box-shadow: 2px 2px 4px midnightblue;
+  width: 20px;
 }
 
 section.buttons {

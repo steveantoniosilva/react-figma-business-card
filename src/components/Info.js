@@ -1,5 +1,5 @@
 import photo from '../assets/head.jpg';
-import linkedin from '../assets/linkedin.png';
+import linkedin from '../assets/linkedin.svg';
 
 export default function Info() {
   return (
