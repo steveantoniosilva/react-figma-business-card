@@ -4,6 +4,19 @@
   font-family: 'Inter', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: transparent;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .App {
   height: 100vh;
   background: #23252c;
@@ -25,6 +38,11 @@
   width: 317px;
   margin: auto;
   background: #1a1b21;
+}
+
+.info img {
+  width: 317px;
+  border-radius: 11px 11px 0 0;
 }
 
 .info h1 {
@@ -81,9 +99,15 @@
 }
 
 .info button.left {
-  color: black;
+  color: #333;
   display: flex;
   justify-content: space-evenly;
+  order: 0;
+}
+
+.envelope {
+  font-size: 20px;
+  box-shadow: 3px 3px 4px#161619;
 }
 
 .info button.right {

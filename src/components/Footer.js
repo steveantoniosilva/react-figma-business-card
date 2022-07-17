@@ -7,10 +7,18 @@ export default function Footer() {
   return (
     <section className='background'>
       <div className='footer'>
-        <img src={github} alt='' />
-        <img src={instagram} alt='' />
-        <img src={twitter} alt='' />
-        <img src={fb} alt='' />
+        <a href='https://www.github.com/' target='_blank'>
+          <img src={github} alt='' />
+        </a>
+        <a href='https://www.instagram.com/' target='_blank'>
+          <img src={instagram} alt='' />
+        </a>
+        <a href='https://www.twitter.com/' target='_blank'>
+          <img src={twitter} alt='' />
+        </a>
+        <a href='https://www.facebook.com/' target='_blank'>
+          <img src={fb} alt='' />
+        </a>
       </div>
     </section>
   );

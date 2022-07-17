@@ -1,4 +1,4 @@
-import photo from '../assets/business-card-photo.png';
+import photo from '../assets/head.jpg';
 import linkedin from '../assets/linkedin.png';
 
 export default function Info() {
@@ -6,16 +6,21 @@ export default function Info() {
     <section className='top background'>
       <div className='info'>
         <img src={photo} alt='' />
-        <h1>Laura Smith</h1>
+        <h1>Trent Smith</h1>
         <h2>Fontend Developer</h2>
-        <h3>laurasmith.com</h3>
+        <h3>trentsmith.com</h3>
         <section className='buttons'>
-          <button className='left'>
-            <span>✉️</span> Email
-          </button>
-          <button className='right'>
-            <img className='linkedin' src={linkedin} alt='linkedin' /> LinkedIn
-          </button>
+          <a href='https://mailchimp.com/' target='_blank' rel='noreferrer'>
+            <button className='left'>
+              <span className='envelope'>✉️</span> Email
+            </button>
+          </a>
+          <a href='https://www.linkedin.com/' target='_blank' rel='noreferrer'>
+            <button className='right'>
+              <img className='linkedin' src={linkedin} alt='linkedin' />{' '}
+              LinkedIn
+            </button>
+          </a>
         </section>
       </div>
     </section>
